@@ -18,5 +18,6 @@ export default {
     { name: 'date', title: 'Date', type: 'datetime' },
     { name: 'image', title: 'Image', type: 'image' },
     { name: 'program', title: 'Program', type: 'file' },
+    { name: 'video', title: 'Video', type: 'youtube' },
   ],
 }

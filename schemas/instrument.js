@@ -8,5 +8,15 @@ export default {
       title: 'Instrument Name',
       type: 'string',
     },
+    {
+      name: 'description',
+      title: 'Description',
+      type: 'text',
+    },
+    {
+      name: 'image',
+      title: 'Image',
+      type: 'image',
+    },
   ],
 }

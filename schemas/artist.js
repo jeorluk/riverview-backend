@@ -27,6 +27,11 @@ export default {
       },
     },
     {
+      name: 'intro',
+      title: 'Artist Intro Text',
+      type: 'blockContent',
+    },
+    {
       name: 'bio',
       title: 'Bio',
       type: 'blockContent',

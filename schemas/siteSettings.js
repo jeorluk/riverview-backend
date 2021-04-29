@@ -9,6 +9,37 @@ export default {
       type: 'image',
     },
     {
+      name: 'theme',
+      title: 'Theme',
+      type: 'reference',
+      to: { type: 'theme' },
+    },
+    {
+      name: 'backgrounds',
+      title: 'Backgrounds',
+      type: 'array',
+      of: [
+        {
+          title: 'Background',
+          name: 'background',
+          type: 'object',
+          fields: [
+            {
+              title: 'Image',
+              name: 'image',
+              type: 'image',
+              options: { hotspot: true },
+            },
+            {
+              title: 'Path',
+              name: 'path',
+              type: 'string',
+            },
+          ],
+        },
+      ],
+    },
+    {
       name: 'banner',
       title: 'BannerImage',
       type: 'image',
