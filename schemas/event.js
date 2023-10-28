@@ -14,6 +14,8 @@ export default {
       },
     },
     { name: 'description', title: 'Description', type: 'blockContent' },
+    { name: 'location', title: 'Location', type: 'string' },
+    { name: 'address', title: 'Address', type: 'string' },
     { name: 'ticketLink', title: 'Ticket Link', type: 'url' },
     { name: 'date', title: 'Date', type: 'datetime' },
     { name: 'image', title: 'Image', type: 'image' },
